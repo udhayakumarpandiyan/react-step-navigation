@@ -1,8 +1,8 @@
-[![NPM](https://img.shields.io/npm/v/react-step-navigation.svg)](https://www.npmjs.com/package/react-step-navigation)
+[![NPM](https://img.shields.io/npm/v/react-step-navigator.svg)](https://www.npmjs.com/package/react-step-navigator)
 
-# React-Step-Navigation
+# React-Step-Navigator
 
-React Step Navigation helps you develop powerful step progress components that _just work_ out of the box, without stopping you from customising the parts that are important to you.
+React Step Navigator helps you develop powerful step progress components that _just work_ out of the box, without stopping you from customising the parts that are important to you.
 
 Features include:
 
@@ -11,28 +11,28 @@ Features include:
 - Dynamic and Customizable 
 
 # Installation and usage
-The easiest way to use react-step-navigation is to install it from npm and build it into your app with Webpack.
+The easiest way to use react-step-navigator is to install it from npm and build it into your app with Webpack.
 ```
-npm i react-step-navigation
+npm i react-step-navigator
 ```
 or
 
 ```
-yarn add react-step-navigation
+yarn add react-step-navigator
 ```
 
 Then use it in your app:
 
 ## Demo
 
-![React Step Navigation demo](react-step-navigation-demo.gif)
+![React Step Navigator demo](react-step-navigator-demo.gif)
 
 ```js
 import React, { useState } from 'react';
-import StepNavigation from 'react-step-navigation';
+import StepNavigator from 'react-step-navigator';
 
 function App() {
-  // steps to be passed to StepNavigation component
+  // steps to be passed to StepNavigator component
   const steps = [{
     name: "Step 1",
     content: <Component1 /> // your component for step 1
@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <StepNavigation steps={steps}/>
+        <StepNavigator steps={steps}/>
       </div>
     </div>
   );
@@ -80,7 +80,7 @@ Common props you may want to specify include:
 - `labelClassName` - Classname to customize styles for the step label
 
 ## Methods
-React Step Navigation exposes four public methods:
+React Step Navigator exposes four public methods:
 
 - `onStepClick` - A function to handle the  click on the step circles
 - `onBackClick` - A function to handle the  click on the back/previous button in the content footer
