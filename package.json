@@ -1,6 +1,6 @@
 {
   "name": "react-step-navigator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React Step Navigator",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,6 +9,14 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udhayakumarpandiyan/react-step-navigator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/udhayakumarpandiyan/react-step-navigator/issues"
+  },
+  "homepage": "https://github.com/udhayakumarpandiyan/react-step-navigator#readme",
   "keywords": [
     "react-step-navigator",
     "react-step-progress",
