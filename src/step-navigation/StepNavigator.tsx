@@ -65,7 +65,7 @@ const defaultStepNavigatorProps: StepNavigatorProps = {
         status: StepStatus.DEFAULT,
         content: <>Step 2 Content</>
     }],
-    direction: Direction.HORIZONTAL,
+    direction: Direction.horizontal,
     showContent: true,
     activeStep: 0,
     icons: [],
